@@ -14,3 +14,8 @@ It is data security.
 It is national progress.
 
 SierraVault is how Sierra Leone secures its future — one document at a time.
+
+## How to use
+pnpm install within the folder
+
+Because your NIN is not in the mongoDB database to be able to use the NIN login fetur use one of the below mock credential. Note: Some may have already br linked to someones account
