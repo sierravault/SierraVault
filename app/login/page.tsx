@@ -290,11 +290,6 @@ export default function LoginPage() {
 
               <div className="mt-6 text-center space-y-3">
                 <p className="text-sm text-gray-600">
-                  <Link href="/forgot-password" className="text-[#2DC5A0] hover:text-[#25a386] transition-colors">
-                    Forgot password? Retrieve using email or phone
-                  </Link>
-                </p>
-                <p className="text-sm text-gray-600">
                   Don't have an account?{" "}
                   <Link href="/register" className="text-[#2DC5A0] hover:text-[#25a386] font-medium transition-colors">
                     Register
@@ -315,3 +310,4 @@ export default function LoginPage() {
     </div>
   )
 }
+
