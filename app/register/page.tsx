@@ -108,7 +108,7 @@ export default function RegisterPage() {
       showToast("success", "Registration Successful", "Your account has been created successfully.")
       
       setTimeout(() => {
-        router.push("/dashboard/me")
+        router.push("/login")
       }, 1500)
     } catch (error) {
       showToast("error", "Registration Failed", "An unexpected error occurred. Please try again.")
@@ -471,4 +471,5 @@ export default function RegisterPage() {
     </div>
   )
 }
+
 
